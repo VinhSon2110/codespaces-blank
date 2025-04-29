@@ -7,14 +7,14 @@ describe.each([
     },
     // TODO: more test cases here
     {
-        input: "CHARMANDER is better than bulbasaur",
-        expected: ["charmander"],
+        input: "help",
+        expected: ["Welcome to the Pokedex! \n Usage: \n help: Displays a help message \n exit: Exit the Pokedex"],
     },
     {
-        input: "Pikachu is kinda mean to ash",
-        expected: ["pikachu"],
+        input: "exit",
+        expected: ["Closing the Pokedex... Goodbye!"],
     },
-])("cleanInput($input)", ({ input, expected }) => {
+])("startREPL($input)", ({ input, expected }) => {
     test(`Expected: ${expected}`, () => {
         // TODO: call cleanInput with the input here
         // The `expect` and `toHaveLength` functions are from vitest

@@ -2,6 +2,11 @@
 > codespaces-blank@1.0.0 dev
 > npx tsc && node dist/main.js
 
-pokedex > Your command was: charmander
-pokedex > Your command was: pikachu
 pokedex > 
+Welcome to the Pokedex!
+Usage:
+
+help: Displays a help message
+exit: Exit the Pokedex
+
+pokedex > Closing the Pokedex... Goodbye!
